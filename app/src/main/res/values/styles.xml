@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="pstsTabTextColor">@color/colorTabText</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="pstsIndicatorColor">@color/colorTabIndicator</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+    </style>
+<!--
+    <style name="Toolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
+        <item name="android:colorPrimary"></item>
+        <item name="android:homeAsUpIndicator">@mipmap/ic_arrow_back_white_24dp</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+-->
+    <style name="MyToolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- title text color -->
+        <item name="android:textColorPrimary">@color/ToolbarText</item>
+        <!-- subtitle text color -->
+        <item name="android:textColorSecondary">@color/ToolbarText</item>
+    </style>
+
+    <style name="Widget.AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <!-- action bar background -->
+        <item name="background">@color/ToolbarBackground</item>
+
+    </style>
+
+    <style name="ThemeOverlay.AppTheme.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- title text color -->
+        <item name="android:textColorPrimary">@color/ToolbarText</item>
+        <!-- subtitle text color -->
+        <item name="android:textColorSecondary">@color/ToolbarText</item>
+        <!-- action menu item text color -->
+        <item name="actionMenuTextColor">?android:textColorPrimary</item>
+        <!-- action menu item icon color - only applies to appcompat-v7 icons :( -->
+        <item name="colorControlNormal">?android:textColorPrimary</item>
+    </style>
+
+    <style name="ThemeOverlay.AppTheme.PopupMenu" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- popup menu background - NEVER "android:background" !!! in themes -->
+        <item name="android:colorBackground">@android:color/black</item>
+        <!-- popup menu item text color -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:id="@+id/footer_layout">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prev"
+        android:id="@+id/btn_previous"
+        android:layout_below="@+id/movieList"
+        android:layout_marginRight="50dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/btn_next"
+        android:layout_alignTop="@+id/btn_previous"
+        android:layout_alignBottom="@+id/btn_previous"
+        android:layout_toEndOf="@id/btn_previous" />
+
+
+</LinearLayout>

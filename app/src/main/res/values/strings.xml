@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyMediaLibrary</string>
+    <string name="search_title">Search</string>
+    <string name="movie_library_title">Movie Library</string>
+    <string name="see_favorite_title">See my favorites</string>
+    <string name="search_hint_movie">Search Movie</string>
+</resources>

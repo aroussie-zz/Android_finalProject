@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Settings, should always be in the overflow -->
+
+    <item android:id="@+id/action_search"
+        android:title="@string/search_title"
+        android:icon="@mipmap/ic_search_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:orderInCategory="3"
+
+        />
+
+    <item android:id="@+id/action_movie_library"
+        android:title="@string/movie_library_title"
+        android:icon="@mipmap/ic_folder_white_24dp"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        />
+
+
+</menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.alexandreroussiere.mymedialibrary.MainActivity"
+    android:background="#616161">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Media Library"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:textColor="#ffab00"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Which Library do you want to access to?"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="68dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/movie"
+            android:src="@drawable/movie"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/tv_show"
+            android:src="@drawable/tv_shows"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/book"
+            android:src="@drawable/books"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>
